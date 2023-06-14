@@ -1,13 +1,12 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import {MyComponent} from './pixitest/TestPixi'
 
 function App() {
   return (
-    <div className="App">
-      <button className="bg-red-500 text-white font-bold py-2 px-4 ">
-        Hello Tailwind
-      </button>
+    <div className="App bg-bgColor">
+      <MyComponent></MyComponent>
     </div>
 
   );
